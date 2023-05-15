@@ -22,7 +22,7 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-22.04
-    #timeout-minutes: 45
+    timeout-minutes: 75
     steps:
       -
         name: Git Checkout
