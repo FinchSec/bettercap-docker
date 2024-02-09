@@ -1,0 +1,7 @@
+services:
+    bettercap:
+        stdin_open: true
+        tty: true
+        privileged: true
+        network_mode: host
+        image: finchsec/bettercap
